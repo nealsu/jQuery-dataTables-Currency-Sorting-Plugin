@@ -3,3 +3,8 @@ dataTables sorting plugins page (http://datatables.net/plug-ins/sorting).  It wa
 but failed when the data was empty or was unexpected.  I extended it to anticipate empty values, any form of
 NA (eg, na, n/a, NA, N/A) and either single or double dashes (eg. -, --).  I also extended it to handle
 numbers without a leading currency symbol.  Of course it's also run through JSLint
+
+Modifications by Nealsu:
+
+This change extends the currency sorting to handle html content and also simplifies the code to match in the 
+current dataTables plugin format.
